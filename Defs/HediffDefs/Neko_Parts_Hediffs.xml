@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+   <HediffDef ParentName="addedPartAdvanced">
+      <defName>AdvancedTail</defName>
+      <label>advanced tail</label>
+      <spawnThingOnRemoved>AdvancedTail</spawnThingOnRemoved>
+      <addedPartProps>
+         <partEfficiency>1.0</partEfficiency>
+      </addedPartProps>
+      <stages>
+		<li>
+         <capMods>
+            <li>
+               <capacity>Manipulation</capacity>
+               <offset>0.35</offset>
+            </li>
+         </capMods>
+		</li>	 
+      </stages>
+   </HediffDef>
+
+   <HediffDef ParentName="addedPartBionics">
+      <defName>PlasteelClaws</defName>
+      <label>plasteel claws</label>
+      <spawnThingOnRemoved>PlasteelClaws</spawnThingOnRemoved>
+      <addedPartProps>
+         <partEfficiency>1.0</partEfficiency>
+      </addedPartProps>
+      <comps>
+         <li Class="HediffCompProperties_VerbGiver">
+            <verbs>
+               <li>
+                  <verbClass>Verb_MeleeAttack</verbClass>
+                  <defaultCooldownTime>.7</defaultCooldownTime>
+                  <meleeDamageBaseAmount>22</meleeDamageBaseAmount>
+                  <meleeDamageDef>Scratch</meleeDamageDef>
+               </li>
+            </verbs>
+         </li>
+      </comps>
+   </HediffDef>
+
+   <HediffDef ParentName="addedPartBionics">
+      <defName>BionicTail</defName>
+      <label>bionic tail</label>
+      <spawnThingOnRemoved>BionicTail</spawnThingOnRemoved>
+      <addedPartProps>
+         <partEfficiency>1.0</partEfficiency>
+      </addedPartProps>
+      <stages>
+		<li>
+         <capMods>
+            <li>
+               <capacity>Manipulation</capacity>
+               <offset>0.20</offset>
+            </li>
+         </capMods>
+		</li>	 
+      </stages>
+   </HediffDef>
+
+   <HediffDef ParentName="addedPartBasic">
+      <defName>ClothTail</defName>
+      <label>cloth tail</label>
+      <spawnThingOnRemoved>ClothTail</spawnThingOnRemoved>
+      <addedPartProps>
+         <solid>true</solid>
+         <partEfficiency>1.0</partEfficiency>
+      </addedPartProps>
+   </HediffDef>
+
+</Defs>

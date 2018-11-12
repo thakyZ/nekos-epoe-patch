@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+   <ThingDef ParentName="Basic">
+      <defName>ClothTail</defName>
+      <label>cloth tail</label>
+      <description>A very poor tail replacement. Looks bad, feels bad, is bad.</description>
+      <graphicData>
+         <texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <statBases>
+	  <Mass>0.25</Mass>
+         <MarketValue>50</MarketValue>
+      </statBases>
+   </ThingDef>
+
+</Defs>

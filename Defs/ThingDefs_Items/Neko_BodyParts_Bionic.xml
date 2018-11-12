@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+   <ThingDef ParentName="Bionic">
+      <defName>BionicTail</defName>
+      <label>bionic tail</label>
+      <description>A bionic prehensile tail.</description>
+      <graphicData>
+         <texPath>Things/Item/BodyPart/BionicPart</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <statBases>
+	      <Mass>0.5</Mass>
+         <MarketValue>1500</MarketValue>
+      </statBases>
+      <techHediffsTags>
+         <li>Advanced</li>
+      </techHediffsTags>
+   </ThingDef>
+
+   <ThingDef ParentName="Bionic">
+      <defName>PlasteelClaws</defName>
+      <label>plasteel claws</label>
+      <description>Replaces an Neko's retractable claws with plasteel ones.</description>
+      <graphicData>
+         <texPath>Things/Item/BodyPart/BionicPart</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <statBases>
+	  <Mass>0.25</Mass>
+         <MarketValue>200</MarketValue>
+      </statBases>
+      <techHediffsTags>
+         <li>AdvancedWeapon</li>
+      </techHediffsTags>
+   </ThingDef>
+
+</Defs>

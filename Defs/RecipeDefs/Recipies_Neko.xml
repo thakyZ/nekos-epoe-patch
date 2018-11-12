@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+ <RecipeDef ParentName="RecipeBasicProsthesis">
+      <defName>CreateClothTail</defName>
+      <label>Craft Cloth Tail</label>
+      <description>Crafts a tail from cloth.</description>
+      <jobString>Crafting prosthesis.</jobString>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+     <li>TableSimpleProsthetic</li>
+      </recipeUsers>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Cloth</li>
+               </thingDefs>
+            </filter>
+            <count>25</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>Cloth</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <products>
+         <ClothTail>1</ClothTail>
+      </products>
+ </RecipeDef>
+
+
+   <RecipeDef ParentName="RecipeBionicProsthesis">
+      <defName>CreatePlasteelClaws</defName>
+      <label>Craft Plasteel Claws</label>
+      <description>Crafts a set of plasteel claws.</description>
+      <jobString>Crafting bionic.</jobString>
+      <soundWorking>EPOEAssembling</soundWorking>
+      <recipeUsers>
+     <li>TableBionics</li>
+      </recipeUsers>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Plasteel</li>
+               </thingDefs>
+            </filter>
+            <count>10</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>ComponentIndustrial</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>Plasteel</li>
+            <li>ComponentIndustrial</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <products>
+         <PlasteelClaws>1</PlasteelClaws>
+      </products>
+ </RecipeDef>
+
+   <RecipeDef ParentName="RecipeBionicProsthesis">
+      <defName>CreateBionicTail</defName>
+      <label>Craft Bionic Tail</label>
+      <description>Crafts a bionic tail.</description>
+      <jobString>Crafting bionic.</jobString>
+      <soundWorking>EPOEAssembling</soundWorking>
+      <recipeUsers>
+     <li>TableBionics</li>
+      </recipeUsers>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Plasteel</li>
+               </thingDefs>
+            </filter>
+            <count>55</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>ComponentIndustrial</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>Plasteel</li>
+            <li>ComponentIndustrial</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <products>
+         <BionicTail>1</BionicTail>
+      </products>
+ </RecipeDef>
+
+ <RecipeDef ParentName="RecipeAdvancedProsthesis">
+      <defName>CreateAdvancedTail</defName>
+      <label>Upgrade Bionic Tail</label>
+      <description>Upgrade a bionic tail with energized components.</description>
+      <jobString>Upgrading bionic.</jobString>
+      <soundWorking>EPOEAssembling</soundWorking>
+      <recipeUsers>
+     <li>TableBionics</li>
+      </recipeUsers>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>BionicTail</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>ComponentSpacer</li>
+               </thingDefs>
+            </filter>
+            <count>3</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>BionicTail</li>
+            <li>ComponentSpacer</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <products>
+         <AdvancedTail>1</AdvancedTail>
+      </products>
+ </RecipeDef>
+
+</Defs>

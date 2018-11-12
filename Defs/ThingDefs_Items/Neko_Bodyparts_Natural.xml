@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+   <ThingDef ParentName="BodyPartNaturalBase">
+      <defName>OTail</defName>
+      <label>Neko tail</label>
+      <description>An Neko tail.</description>
+      <graphicData>
+         <texPath>Things/Item/Health/HealthItemNatural</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <statBases>
+	  <Mass>0.5</Mass>
+         <MarketValue>500</MarketValue>
+      </statBases>
+   </ThingDef>
+
+</Defs>
